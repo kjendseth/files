@@ -3,7 +3,13 @@
 # Script that converts an Amber formatted topology file and a coordinate file to a Orca force field parameter file and a Orca-readable xyz file.
 # Written by Åsmund Røhr Kjendseth (2019)
 # 
-# 
+# Input:  
+# parm7 topology file named: prmtop  
+# coordinate file named: inpcrd
+# These files are written by the AmberTools program tleap using the command: saveamberparm mol prmtop inpcrd
+#
+# More input/output options will be included.
+#
 # =============================================================================
 
 import parmed as pmd
